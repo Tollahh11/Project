@@ -1,0 +1,54 @@
+h1{
+    color: green;
+}
+input[type=submit] {
+    background-color: green;
+    color: white;
+    width: 200px;
+    border-radius: 20px;
+    padding: 5px;
+}
+input[type=text]{
+    clear: both;
+    width: 350px
+}
+p{
+    font-size: large;
+    font-weight: bold; 
+}
+input{
+    border-radius: 5px;
+    width: 480px;
+}
+body{
+    padding-left: 300px;
+}
+a{
+    background-color: rgb(48, 219, 48);
+    border-width: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: x-small;
+    color: beige;
+}
+.mail{
+    width: 370px;
+    float: left;
+    margin-right: 200px;
+}
+.email{
+    width: 110px;
+    float: left;
+}
+.need{
+    width: 207px;
+    float: left;
+    text-align: right;
+    margin-right: 3px;
+}
+.sign{
+    color: rgb(56, 236, 56);
+    float: left;
+    width: 50px;
+}

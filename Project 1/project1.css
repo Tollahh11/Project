@@ -1,0 +1,101 @@
+input{
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    margin: 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    padding:50px 200px;
+}
+.head1{
+    float: left;
+    width: 100%;
+    margin-bottom: 0%;
+}
+.menu ul{
+    background-color: rgb(37, 21, 21);
+    list-style-type: none;
+    float: left;
+    clear: both;
+    padding-left: 0;
+    width: 100%;
+}
+li{
+    display: inline;
+    margin: 5px 20px;
+    color: antiquewhite;
+}
+h2{
+    clear: both;
+    width: 100%;
+}
+.tu{
+    width: 100%;
+    margin-bottom: 60px;
+}
+.tut{
+    float: left;
+    width: 95%;
+}
+.tut2{
+    float: left;
+}
+.cont{
+    clear: both;
+    background-color: rgb(84, 236, 84);
+    padding: 40px 10px;
+    margin-bottom: 10px;
+}
+h1{
+    width: 10%;
+    clear: both;
+    float: left;
+    color: rgb(16, 99, 16);
+}
+.search{
+    width:84%;
+    padding-top: 30px;
+    float: left;
+}
+.log{
+    padding-top: 30px;
+}
+.log input{
+    background-color: rgb(31, 212, 31);
+    color: antiquewhite;
+    border-radius: 10px;
+    width: max-content;
+    border-color: rgb(31, 212, 31);;
+}
+.tu input{
+    background-color: green;
+    color: antiquewhite;
+    border-color: green;
+}
+.cont input{
+    background-color: rgb(18, 207, 18);
+    color: antiquewhite;
+    border-color: rgb(18, 207, 18);;
+}
+.con input{
+    background-color: rgb(15, 2, 2);
+    border-color: rgb(15, 2, 2);;
+}
+.foot input{
+    background-color: rgb(112, 112, 112);
+    color: black;
+    border: rgb(112, 112, 112);
+}
+.main{
+    clear: both;
+    border: 1px solid black;
+    width: 100%;
+    padding: 15px 0px;
+    border-left: none;
+    border-right: none;
+}
