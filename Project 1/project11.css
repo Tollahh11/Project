@@ -1,54 +1,48 @@
-h1{
-    color: green;
-}
-input[type=submit] {
-    background-color: green;
-    color: white;
-    width: 200px;
-    border-radius: 20px;
-    padding: 5px;
-}
-input[type=text]{
-    clear: both;
-    width: 350px
-}
-p{
-    font-size: large;
-    font-weight: bold; 
+*{
+    margin: auto;
+    padding: 0%;
 }
 input{
+    width: 300px;
+    height: 25px;
     border-radius: 5px;
-    width: 480px;
+    padding: 2px;
+}
+input[ type="button"]{
+    width: 100px;
+    border-radius: 15px;
+    background-color: rgb(17, 230, 17);
+    color: white;
+    border: rgb(17, 230, 17);
+    height: 30px;
 }
 body{
-    padding-left: 300px;
+    display: flex;
 }
-a{
-    background-color: rgb(48, 219, 48);
-    border-width: 5px;
-    border-radius: 5px;
-    text-decoration: none;
-    padding: 10px;
-    font-size: x-small;
-    color: beige;
+h1{
+    color: rgb(4, 185, 4);
+    font-size: 70px;
+    font-weight: 600px;
+}
+p{
+    font-size: 20px;
+    font-weight: 500px;
 }
 .mail{
-    width: 370px;
+    width: 260px;
     float: left;
-    margin-right: 200px;
+}
+.mall{
+    width: 100%;
+    float: left;
 }
 .email{
-    width: 110px;
-    float: left;
-}
-.need{
-    width: 207px;
-    float: left;
-    text-align: right;
-    margin-right: 3px;
-}
-.sign{
-    color: rgb(56, 236, 56);
     float: left;
     width: 50px;
+}
+.need{
+    text-align: right;
+}
+.sign{
+    color: rgb(28, 224, 28);
 }

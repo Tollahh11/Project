@@ -1,46 +1,42 @@
-input{
-    margin: 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+*{
+    margin: 0;
+    padding: 0;
 }
-header{
-    margin: 0px;
-}
-a{
+.navbar a{
     color: white;
     text-decoration: none;
+    justify-content: space-between;
+    margin-left: 12px;
 }
 body{
-    padding:50px 200px;
+    max-width: 50%;
+    margin: auto;
 }
 .head1{
     float: left;
     width: 100%;
     margin-bottom: 0%;
+    display: flex;
 }
-.menu ul{
+.navbar{
     background-color: rgb(37, 21, 21);
-    list-style-type: none;
     float: left;
-    clear: both;
-    padding-left: 0;
     width: 100%;
-}
-li{
-    display: inline;
-    margin: 5px 20px;
-    color: antiquewhite;
+    display: flex;
 }
 h2{
     clear: both;
     width: 100%;
+    margin-top: auto;
 }
 .tu{
-    width: 100%;
-    margin-bottom: 60px;
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
 .tut{
     float: left;
-    width: 95%;
 }
 .tut2{
     float: left;
@@ -52,30 +48,47 @@ h2{
     margin-bottom: 10px;
 }
 h1{
-    width: 10%;
+    width: 15%;
     clear: both;
     float: left;
     color: rgb(16, 99, 16);
 }
+p{
+    width: 15%;
+    padding-top: 10px;
+}
 .search{
-    width:84%;
-    padding-top: 30px;
-    float: left;
+    width: 65%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
 }
-.log{
-    padding-top: 30px;
+.sear{
+    width: 30%;
 }
-.log input{
-    background-color: rgb(31, 212, 31);
+.submitt{
+    width: 20%;
+}
+.search input[type=submit]{
+    background-color: rgb(43, 218, 43);
     color: antiquewhite;
     border-radius: 10px;
-    width: max-content;
-    border-color: rgb(31, 212, 31);;
+    border-color: rgb(40, 218, 40);
+    width: 100%;
+    height: 20px;
+    margin-left: 45%;
 }
 .tu input{
     background-color: green;
     color: antiquewhite;
     border-color: green;
+}
+.submit{
+    float: left;
+    padding-top: 5px;
+    background-color: blue;
+    width: 40%;
+    clear: both;
 }
 .cont input{
     background-color: rgb(18, 207, 18);
