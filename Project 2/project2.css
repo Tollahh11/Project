@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 1px;
+    background-color: rgb(18, 18, 110);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    margin: auto;
+    margin-top: 10px;
+    max-width: 50%;
+    clear: both;
+    font-size: small;
+}
+.bod{
+    background-color: white;
+    color: black;
+    padding: 3%;
+    max-width: 90%;
+    margin-top: 20px;
+}
+input{
+    background-color: white;
+    color: black;
+    width: 90%;
+    margin-left: 20px;
+}
+textarea{
+    background-color: white;
+    color: black;
+    width: 90%;
+    margin-left: 20px;
+}
+#country{
+    background-color: white;
+    color: black;
+    width: 90%;
+    float: left;
+    margin-left: 20px;
+}
+#p{
+    width: 42.7%;
+}
+#info{
+    height: 50px;
+    padding: 0%;
+}
+.browse{
+    background-color: white;
+    position: relative;
+    display: flex;
+    width: 90%;
+    justify-content: end;
+    margin-left: 20px;
+}
+#browse{
+    position: sticky;
+    right: 0;
+    top: 0;
+    width: 20%;
+    background-color: rgb(204, 148, 5);
+}
+#cv{
+    position: absolute;
+    width: 100%;
+}
+.last{
+    clear: both;
+    background-color: white;
+    width: 90%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: end;
+}
+.last input{
+    background-color: rgb(204, 148, 5);
+    width: 15%;
+}
+p{
+    clear: both;
+    background-color: white;
+    margin-left: 20px;
+    color: black;
+    float: left;
+    width: 90%;
+    font-size: smaller;
+}
+.foott{
+    font-size: small;
+}
