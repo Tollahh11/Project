@@ -20,9 +20,10 @@ body{
 }
 .navbar{
     background-color: rgb(37, 21, 21);
-    float: left;
-    width: 100%;
     display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
 }
 h2{
     clear: both;

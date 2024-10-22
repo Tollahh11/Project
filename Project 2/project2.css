@@ -1,12 +1,12 @@
 *{
     margin: 0%;
     padding: 1px;
-    background-color: rgb(18, 18, 110);
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 body{
     margin: auto;
+    background-color: rgba(4, 52, 69);
     margin-top: 10px;
     max-width: 50%;
     clear: both;
@@ -38,6 +38,9 @@ textarea{
     float: left;
     margin-left: 20px;
 }
+option{
+    color: black;
+}
 #p{
     width: 42.7%;
 }
@@ -57,7 +60,7 @@ textarea{
     position: sticky;
     right: 0;
     top: 0;
-    width: 20%;
+    width: auto;
     background-color: rgb(204, 148, 5);
 }
 #cv{
@@ -68,20 +71,21 @@ textarea{
     clear: both;
     background-color: white;
     width: 90%;
-    margin-left: 20px;
     display: flex;
+    margin-left: 20px;
     justify-content: end;
 }
-.last input{
+.last button{
     background-color: rgb(204, 148, 5);
-    width: 15%;
+    width: auto;
+    color: black;
+    margin-left: 20px;
 }
 p{
     clear: both;
     background-color: white;
     margin-left: 20px;
     color: black;
-    float: left;
     width: 90%;
     font-size: smaller;
 }
